@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.menucont {
+    margin-left: 10px;
+    margin-bottom: 0;
+    border-color: grey;
+    margin-left: 0;
+}
+
+.menu {
+    width: 20px;
+    height: 4px;
+    background-color: black;
+    margin: 6px 0;
+    border-radius: 10px;
+}
+.toparea {
+    height: 25px;
+    margin-top: 0;
+    margin-bottom: 2;
+}
+
+.toparea p {
+    margin-top: 0 0;
+    font-family: serif;
+    font-weight: 200;
+}
+
+.Mcontone {
+    background-image: url(/Images/modelbackgroundmain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    height: 900px;
+    width: 100%;
+    margin: 0%;
+    margin-left: 0;
+}
+
+.Mopenboxtext {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 35px;
+    color: white;
+    margin-left: 20px;
+}
+

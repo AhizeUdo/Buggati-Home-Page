@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Models</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/models.css">
+</head>
+<body>
+    <div class="toparea">
+        <button id="flip" class="buttoncont">
+            <div class="menucont">
+                <div class="menu"></div>
+                <div class="menu"></div>
+                <div class="menu"></div>
+            </div>
+        </button>
+        <p>Find a Buggati Partner</p>
+    </div>
+    <div id="panel" class="hiddenbox">
+       <ul>
+           <li><a href="Model.html">Models</a></li>
+           <li><a href="Brand.html">Brands</a></li>
+           <li><a href="Ownership.html">Ownership</a></li>
+           <li><a href="Lifestyle">Lifestyle</a></li>
+           <li><a href="Luxury.html">Luxury</a></li>
+           <li><button id="exit">Exit</button></li>
+       </ul>
+    </div>
+    <section class="Msecone">
+        <div class="Mcontone">
+            <div class="Mopenboxtext">
+                <h1>One of Models</h1>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function(){
+          $("#flip").click(function(){
+           $("#panel").slideDown("slow");
+        });
+   });
+
+   
+        $(document).ready(function(){
+         $("#exit").hover(function(){
+           $("#panel").hide("slow");
+        });
+   });  
+    </script>
+</body>
+</html>

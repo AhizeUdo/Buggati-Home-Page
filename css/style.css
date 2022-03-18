@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.toparea {
+    height: 10px;
+    overflow-y: hidden;
+}
+
+.btn {
+    background-color: rgb(230, 219, 219);
+    padding: 6px;
+    cursor: pointer;
+}
+
+.navarea {
+    height: 300px;
+    background-color: green;
+}
+
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+
+.hiddenbox {
+    background-image: url(/Images/hiddenbackground.jpg);
+    background-repeat: no-repeat;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    margin-left: 0;
+    z-index: 1;
+}
+
+.hiddenbox li {
+    color: grey;
+    font-size: 60px;
+    padding: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hiddenbox ul li a {
+    color: grey;
+    text-decoration: none;
+}
+
+.hiddenbox li a:hover {
+    color: white;
+}
+
+.hiddenbox li button {
+    font-size: 20px;
+    color: rgb(48, 46, 46);
+}
+
+.openbox { 
+    background-image: url(/Images/Mainbackgroundone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    height: 750px;
+    width: 100%;
+    margin: 0%;
+    margin-left: 0;
+}
+
+.openboxtext {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 35px;
+    color: white;
+}
+
+.secone {
+    height: 100%;
+    background-image: url(/Images/seconebackground.jpg);
+    margin-top: 0;
+}
+
+.textbox {
+    background-image: url(/Images/sewconebackgroundreplacment.jpg);
+    margin-top: 0;
+    height: 450px;
+    width: 100%;
+    display: flex;
+}
+
+.textbox ul li h4 {
+    color: white;
+    font-weight: 600;
+    font-size: 19px;
+    font-family: monospace;
+}
+
+.textbox ul {
+    list-style-type: none;
+    margin-top: 40px;
+    overflow-y: hidden;
+}
+
+.listone {
+    display: flex;
+    text-align: left;
+    width: 50%;
+    overflow-y: hidden;
+}
+
+.listwo {
+    float: right;
+    display: flex;
+    text-align: right;
+    width: 50%;
+    overflow-y: hidden;
+}
+
+.textbox ul li {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 300;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.sectwo {
+    height: 100%;
+    background-image: url(/Images/seconebackground.jpg);
+    margin-top: 0;
+    padding: 15px;
+    margin-left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.lineone {
+    background-color: rgb(153, 51, 34);
+    height: 130px;
+    width: 100%;
+    margin-left: 0;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.linetwo {
+    background-color: rgb(198, 222, 239);
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    margin-top: 150px;
+    margin: 0 70;
+    padding: 0;
+}
+
+.overlapimage {
+    background-image: url(/Images/text.png);
+    height: 800px;
+    margin-top: 90px;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    overflow-y: hidden;
+}
+
+.threefourcont {
+    align-items: right;
+    align-content: right;
+    height: 100%;
+}
+
+.linethree {
+    background-color: brown;
+    height: 80px;
+    width: 30%;
+    margin-left: 0;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.linefour {
+    background-color: brown;
+    height: 80px;
+    width: 30%;
+    margin-left: 0;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+
+.overlapimagetwo {
+    background-image: url(/Images/text2.png);
+    height: 900px;
+    margin-top: 90px;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    overflow-y: hidden;
+}
+
+.bottomtextcont {
+    height: 500px;
+    align-items: center;
+}
+
+.bottomtextcont h1 {
+    color: white;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-style: italic; 
+}
+
+.bottomtextcont p {
+    color: white;
+    font-size: 13.5px;
+    font-weight: 500;
+    font-family: monospace;
+    text-align: center;
+}
+
+.linebottom {
+    align-items: center;
+    width: 10%;
+    color: grey;
+}
+
+.secthree {
+    background-color: black;
+    height: 250px;
+    margin-top: 0;
+    padding: 15px;
+    margin-left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.endarea {
+    align-items: center;
+}
+
+.endarea h4 {
+    font-size: 13.5px;
+    color: white;
+    font-size: 13.5px;
+    font-weight: 500;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.endarea ul {
+    align-items: center;
+    text-align: center;
+} 
+
+.endarea ul li {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: centre;
+    padding: 30px;
+    font-weight: 500;
+    font-family: monospace;
+}
